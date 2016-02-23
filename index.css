@@ -6,11 +6,47 @@
     padding-bottom: 15px;
     
 }
+.fixed-nav-bar{
+    background-color: #03244d;
+    height: 60px;
+    width: 75%;
+    border: none;
+    text-align: center;
+    position: fixed;
+    z-index: 1;
+    list-style-type: none;
+    margin-top: -40px;
+    border-radius: 5px;
+    padding-top: 10px;
+       
+}
+
+li {
+    color: white;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.1em;
+    text-align: center;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1.3em;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+a:hover {
+    color: #dd550c
+}
 .container {
-    width: 100%;
+    width: auto;
     margin: 0 auto;
     padding-left: 150px;
-    padding-right: 150px
+    padding-right: 150px;
 }
 .float-left {
     padding-top: 15px;
@@ -22,10 +58,7 @@
 .float-right {
     padding-top: 15px;
     float: right;
-    width: 50%
-    
-    
-    
+    width: 50%;
 }
 .btn-secondary {
     background: none;
@@ -36,6 +69,8 @@
     font-size: 1em; 
     padding-left: 15px;
     padding-right: 15px;
+    clear: right;
+    
 }
 
 .section-head {
@@ -50,7 +85,8 @@
     padding-bottom: 10px;
     font-size: 2em;
     text-transform: uppercase;
-    margin-top: 15px
+    margin-top: 15px;
+    
    
 }
 .doubles {
@@ -122,7 +158,7 @@ input {
     width: 275px;
     border: none;
     border-radius: 10px;
-    background-color: #888;
+    
     margin-bottom: 50px;
     padding-left: 5px;
     margin-top: 10px;
@@ -133,10 +169,13 @@ input {
      border-radius: 10px;
      border: none;
      padding-left: 5px;
-     background-color: #888;
+     
  }
 
 .inform  {
    margin-bottom: 5px;
 }
 
+.clear {
+    clear: both;
+}
