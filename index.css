@@ -52,6 +52,7 @@ a:hover {
     padding-top: 15px;
     float:left;
     width: 50%;
+    padding-bottom: 15px;
     
     
 }
@@ -59,6 +60,7 @@ a:hover {
     padding-top: 15px;
     float: right;
     width: 50%;
+    padding-bottom: 15px;
 }
 .btn-secondary {
     background: none;
@@ -164,18 +166,23 @@ input {
     margin-top: 10px;
     }
  textarea {
-     height: 200px;
+     height: 195px;
      width: 275px;
      border-radius: 10px;
      border: none;
      padding-left: 5px;
+     margin-top: 5px;
+     padding-top: 5px;
      
  }
 
 .inform  {
    margin-bottom: 5px;
+   background-color: #FFFFFF;
+  
 }
 
 .clear {
     clear: both;
+    padding-top: 10px;
 }
